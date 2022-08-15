@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7543991188096615643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7543991188096615642}
+  - component: {fileID: 7543991188096615621}
+  m_Layer: 0
+  m_Name: SpawnLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7543991188096615642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7543991188096615643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -196, y: 307.64478, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7543991188096615621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7543991188096615643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 765e9f1f5bf05c447bf4e8730ac09dc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zero: {fileID: 23953954711144509, guid: 64997e7810f758547867b06f09365119, type: 3}
+  one: {fileID: 7353815348318028201, guid: 8138b6f5823bf9447a0f1d5550e00883, type: 3}
+  two: {fileID: 3323946169004972238, guid: 249b015a336ebd64bac670086d1ca3c9, type: 3}
+  three: {fileID: 951154969478282240, guid: d087ea25653cd0442aa07af989f05ae8, type: 3}
+  four: {fileID: 5306877278816466482, guid: 526115871a20d0945af8b76f3844c739, type: 3}
+  five: {fileID: 7225922498348757121, guid: 40871887434161b4aae6d71164a95f12, type: 3}
+  spawn1: {fileID: 7543991188096615643}
+  spawn2: {fileID: 0}
+  boost: {fileID: 8470208744140876122, guid: f07264cdaa0e41640a410ef0b97bd152, type: 3}
+  life: {fileID: 4436231416788927280, guid: 4f21419df04b393488e0dfa88f9c2beb, type: 3}
+  spawn: {fileID: 0}
